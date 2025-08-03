@@ -1,0 +1,65 @@
+.sudoku-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .central-grid,
+  .corner-grid {
+    display: inline-block;
+    border-collapse: collapse;
+    margin: 10px;
+  }
+  
+  .central-grid table,
+  .corner-grid table {
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .corner-grid {
+    position: absolute;
+  }
+  
+  .top-left {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .top-right {
+    top: -30px;
+    right: -30px;
+  }
+  
+  .bottom-left {
+    bottom: -30px;
+    left: -30px;
+  }
+  
+  .bottom-right {
+    bottom: -30px;
+    right: -30px;
+  }
+  
+  .cell {
+    text-align: center;
+  }

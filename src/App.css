@@ -1,0 +1,75 @@
+/* Container Styles */
+.sudoku-container {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+.sudoku-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Sudoku Grid */
+.sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  gap: 2px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+/* Sudoku Cell */
+.sudoku-cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.sudoku-cell.border-top {
+  border-top: 2px solid black;
+}
+
+.sudoku-cell.border-left {
+  border-left: 2px solid black;
+}
+
+.sudoku-cell.border-bottom {
+  border-bottom: 2px solid black;
+}
+
+.sudoku-cell.border-right {
+  border-right: 2px solid black;
+}
+
+/* Buttons */
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.solve-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reset-button {
+  background-color: #f44336;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
